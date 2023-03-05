@@ -1,0 +1,77 @@
+@media (max-width:1020px) {
+    body {
+        overflow: auto;
+    }
+
+    .container {
+        height: 100%;
+    }
+
+    .card {
+        width: 320px;
+        height: 1060px;
+        margin: 20px;
+    }
+
+    .review {
+        margin-left: 1em;
+    }
+
+    .review-1, .review-2, .review-3 {
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .social .card-irene, .card-anne  {
+        margin: 0;
+        margin-top: 1em;
+        
+    }
+
+    .social .card-anne {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .tittle {
+        text-align: center;
+        max-width: 290px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tittle p {
+        max-width: 300px;
+    }
+
+    .review {
+        margin: 0;
+    }
+
+    .review-1, .review-2, .review-3 {
+        width: 320px;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .attribution {
+        top: 85em;
+    }
+}
+
+@media (max-height:630px) {
+    .attribution {
+        display: none;
+    }
+}
